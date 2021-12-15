@@ -1,0 +1,15 @@
+[client]
+rpc = "grpc.trongrid.io:50051"
+fee_limit = 1000000000
+pri_key = "you_private_key"
+
+[horse]
+address = "seal_contract_address, with '41' prefix"
+data = "smart contract data"
+test = true
+
+# nile transfer
+[transfer]
+rpc = "47.252.19.181:50051"
+pri_key = ["from_pri_key1", "from_pri_key2", "from_pri_key3"]
+to_address = "tron address with '41' prefix"
